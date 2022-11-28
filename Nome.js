@@ -7,10 +7,11 @@ export default function Nome({navigation}) {
     }
     return (
     <View style={styles.container}>
-      <Text>Gabriela Januaria da Silva</Text>
+      <Text>Olá! Seja bem vinda...</Text>
+      <Text>Gabriela Januaria da Silva!</Text>
       <StatusBar style="auto" />
       <Button
-        title='verImagem'
+        title='ver Imagem'
         onPress={() => verImagem()}
       />
     </View>
